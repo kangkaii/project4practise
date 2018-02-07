@@ -16,6 +16,7 @@ public class Demo02 {
         List<String> sList = Arrays.asList(null);
         System.out.println(Arrays.asList(array));
         //、、、、、sList.add("1");
+
         sList.remove("1");
 
         int[] array02 = new int[]{1,2,3,4,5,6};
