@@ -3,6 +3,7 @@ package kk.practise.初始化集合指定大小;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -12,7 +13,7 @@ public class ListTest {
 
     @Test
     public void test() {
-        List<String> list = new ArrayList<>(16);
+        List<String> list = Arrays.asList(new String[]{}) ;
         list.add("1");
         System.out.println(list.size());
     }

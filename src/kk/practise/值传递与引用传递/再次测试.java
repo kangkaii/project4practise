@@ -6,7 +6,6 @@ package kk.practise.值传递与引用传递;
 public class 再次测试 {
 
     public static void main(String[] args) {
-
         A a = new A("aaaa");
         change01(a);
         System.out.println(a.getName());

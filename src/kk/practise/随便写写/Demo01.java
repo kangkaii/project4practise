@@ -9,16 +9,25 @@ import java.util.List;
  */
 public class Demo01 {
 
-    public static void main(String[] args) {
+    private int a;
 
-        int[] a = new int[]{1,2,3,4,5,6,7};
-        int[] b = new int[]{1,2,3,4,5,6,7};
-        System.arraycopy(a,3,b,4,2);
-        for (int i = 0; i < b.length; i++) {
-            System.out.print(b[i]);
+    private String b;
+
+    private Person p;
+
+
+    void test() {
+        String x = b;
+        //b = "1";
+        if (p == null) {
+
         }
-        ArrayList<Integer> list = new ArrayList<>(10);
+    }
+    public Demo01() {}
+
+    static {
 
     }
+
 
 }

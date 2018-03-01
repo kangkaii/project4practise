@@ -9,19 +9,19 @@ public class Demo03 {
     public static void main(String[] args) {
         A a = new A("01");
         change(a);//相当于先 新建引用地址
-        System.out.println(a.getName());
+        System.out.println("a.getName()"+a.getName());
 
         A a02 = new A("88888");
         changeWithNew(a02);
-        System.out.println(a02.getName());
+        System.out.println("a02.getName()"+a02.getName());
 
-        A a03 = a;
+        /*A a03 = a;
         System.out.println("新的a03是否会被一个已经有属性的a赋值成功？：");
-        System.out.println(a03.getName()!=null?("success"):("没有成功"));
+        System.out.println(a03.getName()!=null?("success"):("没有成功"));*/
 
         A a04 = new A("88888");
         change02(a04);
-        System.out.println(a04.getName()!=null?"success":"fail");
+        System.out.println(a04.getName());
 
     }
 
@@ -36,7 +36,7 @@ public class Demo03 {
 
     public static void change02(A a) {
         A test = new A("test");
-        test.setName("11");
+        //test.setName("11");
         a = test;
     }
 

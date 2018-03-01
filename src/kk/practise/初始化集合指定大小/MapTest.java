@@ -19,16 +19,11 @@ public class MapTest {
      * @param  initialCapacity the initial capacity.
      * @throws IllegalArgumentException if the initial capacity is negative.
      */
-        Map<String,String> map = new HashMap(2);
-        map.put("1","1");
-        map.put("2","2");
-        map.put("3","3");
-        System.out.println("初始化定义的大小为2，添加3条数据，size为："+map.size());
 
-        Map<String,String> map02 = new HashMap(3);
-        map02.put("1","1");
-        map02.put("2","3");
-        System.out.println("初始化定义的大小为3，添加1条数据，size为："+map02.size());
+
+        Map<String,String> map02 = new HashMap();
+
+        //System.out.println("初始化定义的大小为5，添加6条数据，size为："+map02.size());
     }
 
 }
