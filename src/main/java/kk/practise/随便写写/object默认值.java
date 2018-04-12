@@ -1,0 +1,1 @@
+package kk.practise.随便写写;/**输出结果为false * 说明 new Object(); 后对象的值 不是null 也不是"" * @author kangkai on 2018/4/12. */public class object默认值 {    public static void main(String[] args) {        Object o = new Object();        String s = new String();        System.out.println(o==null || o=="");    }}

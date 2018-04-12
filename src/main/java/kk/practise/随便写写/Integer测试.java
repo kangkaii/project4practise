@@ -1,0 +1,1 @@
+package kk.practise.随便写写;import java.util.Objects;/** * @author kangkai on 2018/4/12. */public class Integer测试 {    public static void main(String[] args) {        Integer integer01 = new Integer(1);        Integer integer02 = new Integer(1);        System.out.println(Objects.equals(integer01, integer02));    }}
