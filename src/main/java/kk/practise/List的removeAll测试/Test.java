@@ -1,4 +1,4 @@
-package kk.practise.List的romoveAll测试;
+package kk.practise.List的removeAll测试;
 
 
 import java.util.ArrayList;

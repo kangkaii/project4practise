@@ -1,0 +1,1 @@
+package kk.practise.四种方法引用类型.静态方法引用.二;/** * @author kangkai on 2018/4/12. */public class MyClass {    private int val;    MyClass() {}    MyClass(int v) {        val = v;    }    public int getValue() {        return val;    }}

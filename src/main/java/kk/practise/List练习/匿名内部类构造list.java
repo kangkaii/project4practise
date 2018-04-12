@@ -1,0 +1,1 @@
+package kk.practise.List练习;import java.util.ArrayList;import java.util.List;/** * @author kangkai on 2018/4/11. */public class 匿名内部类构造list {    public static void main(String[] args) {        List<String> list = new ArrayList<>(10){{            this.add("1");        }};    }}
