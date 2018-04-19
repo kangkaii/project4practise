@@ -46,6 +46,8 @@ public class GetClass {
         else {
             System.out.println("反射有问题，请检查！");
         }
+        UserInfo userInfo = new UserInfo();
+        userInfo.hashCode();
     }
 
 }
