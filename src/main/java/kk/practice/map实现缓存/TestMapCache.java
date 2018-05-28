@@ -1,0 +1,1 @@
+package kk.practice.map实现缓存;/** * @author kangkai on 2018/4/19. */public class TestMapCache {    public static void main(String[] args) {        MapCache mapCache = MapCache.single();        mapCache.set("ceshi","test");        System.out.println(mapCache.get("ceshi").toString());    }}

@@ -1,0 +1,1 @@
+package kk.practise.随便写写;/** * @author kangkai on 2018/5/9. */public class Demo000000 {    public static void main(String[] args) {        String str = "<script>alert(123)</script>";        System.out.println(str.replaceAll("<","&#60"));    }}

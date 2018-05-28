@@ -17,10 +17,11 @@ public class Demo01 {
     private Person p;
 
     public static void main(String[] args) {
-        String x = "";
+        /*String x = "";
         if (null == x || "".equals(x)) {
 
-        }
+        }*/
+        System.out.println(System.currentTimeMillis()/1000);
     }
 
 

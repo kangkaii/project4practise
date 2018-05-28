@@ -1,0 +1,1 @@
+package kk.practice.类名点this;/** * @author kangkai on 2018/5/28. */public class Demo01 extends Demo {    public Demo01() {}    public Demo01(String s) {}    public void test01() {        Demo01 d = Demo01.this;        Demo01 d1 = new Demo01();    }}class Demo{    public static void main(String[] args) {    }}
