@@ -1,0 +1,1 @@
+package kk.practice.redis;import redis.clients.jedis.Jedis;/** * @author kangkai on 2018/8/21. */public class RedisJava {    public static void main(String[] args) {        Jedis jedis = new Jedis("localhost");        System.out.println("ping = "+jedis.ping());    }}
