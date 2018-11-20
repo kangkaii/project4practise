@@ -55,7 +55,7 @@ public class Demo02 {
             return;
         }
         int t = 0;//实际删除的数量
-        for (int i = 0; i < sb.length()-1 && t<n;) {
+        for (int i = 0; i < sb.length()-1 && t<n;) {//不进行i++（总是在每次循环结束生效 导致取不到索引0）
             if (sb.charAt(i) < sb.charAt(i+1)) {
                 sb.deleteCharAt(i);
                 t++;

@@ -6,6 +6,8 @@ import java.util.Comparator;
 /**
  * @author kangkai on 2018/1/8.
  */
+
+
 public class Demo {
 
     public static void main(String[] args) {
@@ -19,7 +21,7 @@ public class Demo {
                 return 0;
             }
         });
-        //Arrays.sort(array,(o1, o2) -> { o1.height - o2.height});
+        Arrays.sort(array,(o1, o2) ->  o1.height - o2.height );
         //Arrays.sort(array, Comparator.comparing(Dog::getHeight));
         System.out.println(array[0]);
         System.out.println(array[1]);
@@ -67,7 +69,7 @@ class Dog {
     }
 
     public String toString() {
-        return getName() + ": size=" + getHeight() + " weight=" + getWeight()
+        return getName() + ": height=" + getHeight() + " weight=" + getWeight()
                 + " \n";
     }
 }
