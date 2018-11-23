@@ -18,14 +18,8 @@ public class Demo01 {
         final Demo01 test = new Demo01();
 
 
-        new Thread() {
-            @Override
-            public void run() {
-                test.insert(Thread.currentThread());
-            }
-
-            ;
-        }.start();
+        new Thread(() ->
+                test.insert(Thread.currentThread())).start();
 
         new Thread() {
             @Override

@@ -19,7 +19,6 @@ public class Demo01 {
 class MyThread01 extends Thread{//创建线程的2种方式之一：继承`Thread`
     private static int num = 0;
 
-
     private String name;
 
     public MyThread01(String name){
