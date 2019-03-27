@@ -15,6 +15,14 @@ public class 再次测试01 {
         a.setName("456");
         A b = getA();
         System.out.println(b.getName());
+
+        A demo01 = new A();
+        setB(demo01);
+    }
+
+    static void setB(A a) {
+
+
     }
 
 }

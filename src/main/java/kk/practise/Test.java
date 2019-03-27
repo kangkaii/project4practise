@@ -1,0 +1,1 @@
+package kk.practise;import static kk.practise.A.xx;/** * @author kangkai on 2018/12/17. */public class Test {    public static void main(String[] args) {        xx();        System.out.println(A.x);    }}class A {    static int x = 0;    public static void xx() {        x = 100;    }}

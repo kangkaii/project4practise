@@ -1,0 +1,1 @@
+package kk.practise.值传递与引用传递.T20190122测试;/** * @author kangkai on 2019/1/22. */public class Friend {    private String name;    public String getName() {        return name;    }    public Friend setName(String name) {        this.name = name;        return this;    }}
